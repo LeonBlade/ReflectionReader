@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ReflectionReader": {
+      "commandName": "Project",
+      "commandLineArgs": "StardewValley.DummyGameData.dll StardewValley.DummyGameData.Dummy.DummyData"
+    }
+  }
+}

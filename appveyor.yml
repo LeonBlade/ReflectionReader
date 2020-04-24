@@ -1,0 +1,14 @@
+version: 1.0.{build}
+
+image: 
+  - Visual Studio 2019
+  - Ubuntu
+  - macOS
+
+before_build:
+  - nuget restore
+
+artifacts:
+  - path: CoreTestProject/bin/Debug/netcoreapp3.1/
+    name: CoreTestProject
+    type: zip
