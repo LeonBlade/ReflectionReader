@@ -9,6 +9,6 @@ before_build:
   - nuget restore
 
 artifacts:
-  - path: CoreTestProject/bin/Debug/netcoreapp3.1/
-    name: CoreTestProject
+  - path: ReflectionReader/bin/Debug/netcoreapp3.1/
+    name: ReflectionReader
     type: zip
